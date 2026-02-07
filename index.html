@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brospov Ol | Social Links</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    /* ... (Keeping your existing base styles) ... */
+    *{box-sizing:border-box;margin:0;padding:0;font-family:'Poppins',sans-serif;}
+    body{
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:radial-gradient(ellipse at bottom,#6181a3 0%,#2f2e36 70%);
+      overflow:hidden;
+      color:#fff;
+    }
+
+    body::before {
+      content:"";
+      position:absolute;
+      inset:0;
+      background-image: 
+        radial-gradient(1px 1px at 10% 20%,#fff,transparent),
+        radial-gradient(2px 2px at 50% 50%,#9ecbff,transparent),
+        radial-gradient(2px 2px at 90% 70%,#c77dff,transparent);
+      animation:starMove 100s linear infinite;
+      z-index:0;
+    }
+
+    @keyframes starMove{ from{transform:translateY(0);} to{transform:translateY(-1000px);} }
+
+    .card {
+      position:relative; z-index:1;
+      width:90%; max-width:380px;
+      background:rgba(255,255,255,0.08);
+      backdrop-filter:blur(18px);
+      border-radius:22px;
+      padding:30px 20px;
+      text-align:center;
+      box-shadow:0 25px 60px rgba(0,0,0,.55);
+      border:1px solid rgba(255,255,255,0.15);
+    }
+
+    /* --- PROFILE IMAGE SECTION --- */
+    .avatar {
+      width: 115px;
+      height: 115px;
+      border-radius: 50%;
+      margin: 0 auto 15px;
+      
+      /* PASTE YOUR IMAGE URL BELOW */
+      background-image: url('sxdcfvbhn.jpg');
+      
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border: 3px solid rgba(255, 255, 255, 0.8);
+      box-shadow: 0 0 20px rgba(76, 201, 240, 0.4); /* Soft blue glow */
+    }
+
+    h1{font-size:1.4rem;font-weight:600;margin-bottom:5px;}
+    p{font-size:.9rem;opacity:.8;margin-bottom:25px;}
+
+    .link {
+      display:block;
+      width:100%;
+      padding:16px;
+      margin-bottom:18px;
+      color:#fff;
+      text-decoration:none;
+      font-weight:700;
+      border-radius:18px;
+      position:relative;
+      overflow:hidden;
+      transition:transform .25s ease;
+    }
+
+    .link:hover { transform:translateY(-3px); }
+
+    /* Colors */
+    .facebook { background: linear-gradient(135deg, #1877f2, #0052cc); }
+    .instagram { background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af); }
+    .youtube { background: linear-gradient(135deg, #ff0000, #c40000); }
+    .x-twitter { background: #000; }
+    .line { background: #00c300; }
+    .donate { background: #0070ba; }
+
+    footer{margin-top:15px;font-size:.75rem;opacity:.5;}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar"></div>
+    
+    <h1>Brospov Ol</h1>
+    <p>Creator | Coffee | Relax</p>
+
+    <a class="link facebook" href="https://www.facebook.com/share/1CRVvXbr5g/" target="_blank">Facebook</a>
+    <a class="link instagram" href="https://www.instagram.com/leap_heng_?igsh=MW0wa3hjdHJxNjQ5cQ==" target="_blank">Instagram</a>
+    <a class="link youtube" href="https://youtube.com/@leaphengkham?si=wgDM25Ae6v8oAvQX" target="_blank">YouTube</a>
+    <a class="link x-twitter" href="https://x.com/the_leapheng" target="_blank">X</a>
+    <a class="link line" href="https://line.me/ti/p/vr9svJzgED" target="_blank">Line</a>
+    <a class="link donate" href="https://www.paypal.com/donate/?hosted_button_id=8RASAP7SWGFQL" target="_blank">Donate</a>
+
+    <footer>© POV Copyright </footer>
+  </div>
+</body>
+</html>
+
+
+  <!-- <div class="card">
+    <div class="avatar"></div>
+    
+    <h1>Brospov Ol</h1>
+    <p>Creator | Coffee | Relax</p>
+
+    <a class="link facebook" href="https://www.facebook.com/share/1CRVvXbr5g/" target="_blank">Facebook</a>
+    <a class="link instagram" href="https://www.instagram.com/leap_heng_?igsh=MW0wa3hjdHJxNjQ5cQ==" target="_blank">Instagram</a>
+    <a class="link youtube" href="https://youtube.com/@leaphengkham?si=wgDM25Ae6v8oAvQX" target="_blank">YouTube</a>
+    <a class="link x-twitter" href="https://x.com/the_leapheng" target="_blank">X</a>
+    <a class="link line" href="https://line.me/ti/p/vr9svJzgED" target="_blank">Line</a>
+    <a class="link donate" href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-82P92704MM672805GNF25ISI" target="_blank">Subcribe</a>
+
+    <footer>© POV Copyright </footer>
+  </div> -->
